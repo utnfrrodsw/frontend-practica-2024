@@ -1,0 +1,26 @@
+*{
+    font-family: Arial;
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #808080;
+    text-align: justify;
+
+    @media (max-width: 419px) {
+        border: none;
+        width: 90%;
+    }
+
+    @media (width >= 420px) and (width < 768px){
+        border: 3px solid #2132cf;
+        width: 70%;
+    }
+
+}
+
+a:hover{
+    color: #419412;
+}
