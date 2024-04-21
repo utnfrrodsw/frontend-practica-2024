@@ -8,7 +8,6 @@ window.addEventListener('load', () => {
     const multiplicationBtn = document.querySelector('#multiplication');
     const clearBtn = document.querySelector('#clear');
     const processBtn = document.querySelector('#process');
-    console.log(resultInput)
 
     clearBtn.addEventListener('click', () => {
         resultInput.value = '';
@@ -22,7 +21,7 @@ window.addEventListener('load', () => {
         addToResult(number);
     }
 
-    const buttons = document.querySelectorAll('.number');
+    const buttons = document.querySelectorAll('.numero');
 
     buttons.forEach(btn => btn.addEventListener('click', () => handleNumber(btn.textContent)));
 

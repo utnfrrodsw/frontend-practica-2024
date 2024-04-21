@@ -1,0 +1,45 @@
+.container{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border: 3px solid #808080;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media (max-width: 419px) {
+        padding: 5px 25px;
+        width: 80%;
+    }
+    @media (width >= 420px) and (width < 768px) {
+        border: 3px solid #2132cf;
+        width: 70%;
+    }
+    @media (width >= 768px){
+        border: 3px solid #cf8c21;
+        width: 50%;
+    }
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 154px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button:hover{
+    cursor: pointer;
+}

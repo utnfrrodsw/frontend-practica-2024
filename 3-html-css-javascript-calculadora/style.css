@@ -16,7 +16,7 @@
     text-align: right;
 }
 
-.number-row {
+.fila {
     display: flex;
     justify-content: space-between;
     gap: 10px;
