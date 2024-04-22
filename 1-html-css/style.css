@@ -1,0 +1,22 @@
+section{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid gray;
+
+    @media (max-width: 419px) { border: 0px; width: 90%; };
+    @media (width >= 420px) and (width < 768px) { border: 3px solid#2132cf; width: 70%; }
+    @media (width > 768px) { border: 3px solid#808080; width: 50%; }
+}
+
+p,a{
+    text-align: justify;
+}
+
+a:hover{
+    color: #419412;
+}
+
+body{
+    font-family: Arial;
+}
