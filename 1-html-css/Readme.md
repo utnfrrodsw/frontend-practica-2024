@@ -16,3 +16,8 @@ Se necesita armar el diseño de un documento html respetando el siguiente diseñ
 - Para un ancho hasta 419px, el section no tiene borde, y tiene un ancho del 90%.
 - Para (width >= 420px) and (width < 768px) se muestra un borde 3px de ancho y color #2132cf; Y el ancho es de 70%
 - Para (width >= 768px) se muestra un borde 3px de ancho y color #808080; Y el ancho es de 50%
+
+## Resultado
+<p align="center">
+  <img src="assets/prev.gif">
+</p>
