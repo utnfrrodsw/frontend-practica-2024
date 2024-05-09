@@ -7,11 +7,11 @@ Se necesita armar el diseño de un documento html respetando el siguiente diseñ
 #### 3. Agregar un input de tipo texto. Tiene que tener un ancho de 100%, un padding de 10px, un margen superior e inferior de 20px y automático a los lados. Utilizar la propiedad box-sizing para acomodar la caja de texto al ancho del contenido del contenedor (https://css-tricks.com/box-sizing)
 #### 4. En el input anterior, el tamaño de la fuente debe ser de 18px y alineado a la derecha.
 #### 5. Colocar botones en pantalla con la siguiente disposición:
- 7 - 8 - 9 - X
- 4 - 5 - 6 - %
- 1 - 2 - 3 - -
- 0 - . - = - +
- C
+    7 - 8 - 9 - X
+    4 - 5 - 6 - %
+    1 - 2 - 3 - -
+    0 - . - = - +
+    C
 #### 6. Cada fila de botones debe tener los siguientes estilos:
     display: flex;
     justify-content: space-between;
