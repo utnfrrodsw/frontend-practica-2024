@@ -20,4 +20,4 @@ Se necesita armar el diseño de un documento html respetando el siguiente diseñ
 #### 7. Cada botón debe tener un ancho de 40px y un alto de 30px, borde redondeado a 5px. Cuando nos posicionamos con el mouse encima del botón el cursor tiene que ser "pointer". Cada botón debe ocupar todo el espacio disponible que pueda dentro de la fila de botones donde se encuentre (usar flex)
 #### 8. Colocar un atributo id único a cada botón de operación
 #### 9. Utilizar document.addEventListener para vincular un manejador de eventos a cada botón de operación. Cada evento debe manejar la acción que corresponda y modificar el contenido del input principal de la calculadora.
-#### 10. Cada número debe escribir su valor en pantalla al ser presionado, leer la propiedad textContent para obtener el valor del bo´ton numérico. El bóton = debe resolver la expresión actual en pantalla usando la función eval;
+#### 10. Cada número debe escribir su valor en pantalla al ser presionado, leer la propiedad textContent para obtener el valor del botón numérico. El bóton = debe resolver la expresión actual en pantalla usando la función eval;
